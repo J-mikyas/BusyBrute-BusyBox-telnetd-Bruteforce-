@@ -49,7 +49,7 @@ print("\n")
 
 
 def RespTriedAll():
-    print("[ :( ] COULDNT FIND THE CREDS, TRY A DIFFRENT WORDLIST?")
+    print("[!] COULDNT FIND THE CREDENTIALS, TRY A DIFFRENT WORDLIST?")
 
 # \\ BRUTE FORCE LOGIC //
 
@@ -141,7 +141,7 @@ def brute(user_lines, pass_lines):
                 else:
                     cracked = True
                     with print_lock:
-                        print("\n[+] CREDS FOUND !!!: " + username + ":" + passwd)
+                        print("\n[+] CREDENTIALS FOUND!: " + username + ":" + passwd)
                         print("[+] RESPONSE OF: " + str(resp))
                     disconnect()
                     os._exit(0)
