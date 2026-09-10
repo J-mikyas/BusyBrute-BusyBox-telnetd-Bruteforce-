@@ -20,7 +20,7 @@ credential is correct or not.
 
 <h2>how to use BusyBrute?</h2>
 
-<p>To use this tool firs you need to download the python script on this repo called <b>"BusyBrute.py"</b> <br> or just clone this repo:
+<p>To use this tool first you need to download the python script on this repo called <b>"BusyBrute.py"</b> <br> or just clone this repo:
   <br>
   <pre><code>git clone https://github.com/J-mikyas/BusyBrute-BusyBox-telnetd-Bruteforce-.git BusyBrute</code></pre>
   <br>
