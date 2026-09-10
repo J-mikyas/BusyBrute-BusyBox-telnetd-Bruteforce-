@@ -18,7 +18,20 @@ a given wordlist.
 credential is correct or not.
 </p>
 
-<h2>how to use BusyBrute?</h2>
+<h2>How does it work?</h2>
+
+<p>
+  Busybrute works by:
+  
+  1. Loading username and password from wordlists given by the user.
+  2. Creating telnet connections to the given target.
+  3. Attempting authentication using supplied credentials.
+  4. Handling the limited number of attempts per session
+  5. Using multiple threads to speed up the process.
+  6. Reporting when the script gets the credentials or fails. 
+</p>
+
+<h2>How to use BusyBrute?</h2>
 
 <p>To use this tool first you need to download the python script on this repo called <b>"BusyBrute.py"</b> <br> or just clone this repo:
   <br>
@@ -32,4 +45,26 @@ this will clone the repo in your current directory, then navigate to the BusyBru
   <p>then excute the script:</p>
   <br>
   <pre><code>python BusyBrute.py [IP] [User Wordlist] [Password Wordlist] [Threads]  </code></pre>
+  <br>
+  <p>Example:</p>
+  <br>
+
+  <pre><code>python BusyBrute.py 192.168.10.1 ./users.txt ./passwords.txt 10</code></pre>
+
+  <p> 
+    this example uses the following variables: <br> <br>
+      ip - <code>192.168.10.1</code> <br>
+      username wordlist - <code>./users.txt</code> <br>
+      password wordlist - <code>./passwords.txt</code> <br>
+      number of threads - <code>10</code><br>
+  </p>
+
+  <p>
+    if the script finds the proper credentials it will output the following: <br>
+    <pre><code> [+] CREDENTIALS FOUND!: username:password</code></pre><br>
+    if the script fails to find the proper credentials it will output the following: <br>
+    <pre><code>[!] COULDNT FIND THE CREDENTIALS, TRY A DIFFRENT WORDLIST?</code></pre> <br>
+  </p>
 </p>
+
+
