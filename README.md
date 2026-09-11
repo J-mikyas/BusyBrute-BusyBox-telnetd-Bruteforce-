@@ -67,4 +67,10 @@ this will clone the repo in your current directory, then navigate to the BusyBru
   </p>
 </p>
 
+<h2>Credits</h2>
 
+<p>
+
+This script was authored-by J-mikyas.
+
+</p>
