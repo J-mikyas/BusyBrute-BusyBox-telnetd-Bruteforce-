@@ -9,7 +9,7 @@
   Unauthorized access to computer systems is illegal in most jurisdictions.
 </p>
 
-<h2>what is BusyBrute?</h2>
+<h2>What is BusyBrute?</h2>
 <p>A multi-threaded credential brute-forcer that targets the <b>"BusyBox Telnetd"</b> service usually on port 23.
 BusyBox Telnetd uses a 3 attempt per session system (allows only 3 credentials per session) this script works around
 that system and allows the user to automate the task of connecting/disconnecting and trying multiple credentials from
